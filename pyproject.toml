@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syrinx"
+version = "0.0.1"
+description = "Code for modeling song generation in the avian vocal periphery"
+authors = [{name = "John Pearson", email = "john.pearson@duke.edu"}]
+
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["neuroscience", "birdsong", "nonlinear dynamics"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "jupyterlab",
+    "jaxlib",
+    "diffrax",
+    "ava-autoencoded-vocal-analysis @ git+https://github.com/pearsonlab/autoencoded-vocal-analysis.git"
+]
+classifiers = ['Development Status :: 1 - Planning']
