@@ -18,6 +18,7 @@ dependencies = [
     "matplotlib",
     "jupyterlab",
     "jaxlib",
+    "optax",
     "diffrax",
 ]
 classifiers = ['Development Status :: 1 - Planning']
