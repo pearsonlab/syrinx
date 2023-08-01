@@ -19,6 +19,5 @@ dependencies = [
     "jupyterlab",
     "jaxlib",
     "diffrax",
-    "ava-autoencoded-vocal-analysis @ git+https://github.com/pearsonlab/autoencoded-vocal-analysis.git"
 ]
 classifiers = ['Development Status :: 1 - Planning']
