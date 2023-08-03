@@ -20,5 +20,7 @@ dependencies = [
     "jaxlib",
     "optax",
     "diffrax",
+    "tensorboard",
+    "tensorboardX",
 ]
 classifiers = ['Development Status :: 1 - Planning']
