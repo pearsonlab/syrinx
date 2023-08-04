@@ -22,5 +22,6 @@ dependencies = [
     "diffrax",
     "tensorboard",
     "tensorboardX",
+    "fire",
 ]
 classifiers = ['Development Status :: 1 - Planning']
